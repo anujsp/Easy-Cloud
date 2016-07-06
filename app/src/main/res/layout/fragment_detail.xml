@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidpractice.easycloud.DetailActivityFragment"
+    tools:showIn="@layout/activity_detail">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/valueTitle"
+        android:text="Title"
+        android:textSize="25dp"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memory"
+        android:id="@+id/textviewMemory"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewID"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disk"
+        android:id="@+id/textviewDisk"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_below="@+id/textviewMemory"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/buttonDelete"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_shape_delete"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:textColor="#212121"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:id="@+id/textViewID"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Region"
+        android:id="@+id/textViewRegion"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_below="@+id/textviewDisk"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueID"
+        android:layout_above="@+id/textviewMemory"
+        android:layout_alignStart="@+id/valueMemory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueMemory"
+        android:layout_alignTop="@+id/textviewMemory"
+        android:layout_toEndOf="@+id/textViewCreated" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueRegion"
+        android:layout_alignTop="@+id/textViewRegion"
+        android:layout_alignStart="@+id/valueMemory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueDisk"
+        android:layout_alignTop="@+id/textviewDisk"
+        android:layout_alignStart="@+id/valueMemory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created: "
+        android:id="@+id/textViewCreated"
+        android:layout_below="@+id/textViewRegion"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueCreated"
+        android:layout_alignTop="@+id/textViewCreated"
+        android:layout_alignStart="@+id/valueRegion" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPv4: "
+        android:id="@+id/textViewIPv4"
+        android:layout_below="@+id/textViewCreated"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueIPv4"
+        android:layout_above="@+id/textViewIPv6"
+        android:layout_alignStart="@+id/valueCreated" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPv6: "
+        android:id="@+id/textViewIPv6"
+        android:layout_below="@+id/textViewIPv4"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/textviewColor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/valueIPv6"
+        android:layout_alignTop="@+id/textViewIPv6"
+        android:layout_alignStart="@+id/valueIPv4" />
+
+
+</RelativeLayout>

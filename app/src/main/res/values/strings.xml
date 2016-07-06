@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name" style="italic">Easy Cloud</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_create">Create Droplets</string>
+
+
+    <string name="create_name">Name: </string>
+    <string-array name="regions_name">
+        <item>New York</item>
+        <item>San Francisco</item>
+        <item>Amsterdam</item>
+        <item>Singapore</item>
+        <item>London</item>
+        <item>Frankfurt</item>
+        <item>Toronto</item>
+        <item>Banglore</item>
+    </string-array>
+
+    <string-array name="size_name">
+        <item>512mb</item>
+        <item>1gb</item>
+        <item>2gb</item>
+        <item>4gb</item>
+        <item>8gb</item>
+        <item>16gb</item>
+    </string-array>
+
+
+    <string-array name="image_type">
+        <item>ubuntu-16-04-x64</item>
+        <item>ubuntu-16-04-x32</item>
+        <item>ubuntu-15-10-x64</item>
+        <item>ubuntu-15-10-x32</item>
+        <item>ubuntu-14-04-x64</item>
+        <item>ubuntu-14-04-x32</item>
+        <item>ubuntu-12-04-x64</item>
+        <item>ubuntu-12-04-x32</item>
+        <item>centos-7-2-x64</item>
+        <item>centos-7-0-x64</item>
+        <item>centos-6-5-x64</item>
+        <item>centos-6-5-x32</item>
+        <item>centos-5-8-x64</item>
+        <item>centos-5-8-x32</item>
+        <item>fedora-23-x64</item>
+        <item>fedora-22-x64</item>
+        <item>debian-8-x64</item>
+        <item>debian-8-x32</item>
+    </string-array>
+
+    <string name="title_activity_detail">Droplets Detail</string>
+    <string name="action_resize">Resize</string>
+    <string name="action_rename">Rename</string>
+    <string name="title_activity_resize">Resize Droplets</string>
+    <string name="title_activity_rename">Rename Droplets</string>
+    <string name="action_enable_backups">Enable Backups</string>
+    <string name="action_disable_backups">Disable Backups</string>
+    <string name="title_activity_enable_backups">Enable Backups Droplets</string>
+    <string name="title_activity_switch">SwitchActivity</string>
+    <string name="title_activity_switch_on">SwitchOn Droplets</string>
+    <string name="title_activity_switch_off">SwitchOff Droplets</string>
+    <string name="title_activity_disable_backups">DisableBackupsActivity</string>
+    <string name="action_search">Search by title...</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password is empty</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_invalid_password_empty">Password can not be empty</string>
+    <string name="error_email_not_exist">Email does not exists</string>
+    <string name="error_email">Invalid Email and Password </string>
+    <string name="error_in_match_password">Password does not match</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="SignUp">Register</string>
+    <string name="easy_cloud">Easy Cloud</string>
+    <string name="token">Token</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_add">Add Droplet</string>
+    <string name="title_activity_register">Register</string>
+    <string name="prompt_token">Token</string>
+    <string name="error_invalid_number_length">Invalid Token</string>
+    <string name="error_invalid_number">error_invalid_number</string>
+    <string name="title_activity_login_ui_activity">Login_ui_activity</string>
+    <string name="email_already_exist">This Email id already exist</string>
+
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+
+</resources>

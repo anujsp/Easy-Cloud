@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidpractice.easycloud.RenameActivityFragment"
+    tools:showIn="@layout/activity_rename">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rename"
+        android:text="Rename: "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="@dimen/paddingTop"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="15sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRename"
+        android:textSize="@dimen/text_size"
+        android:paddingTop="@dimen/paddingTop"
+        android:layout_toRightOf="@id/rename"
+        android:layout_toEndOf="@id/rename"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBaseline="@+id/rename"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="15dp"
+
+        android:lines="@integer/design_snackbar_text_max_lines" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rename"
+        android:id="@+id/buttonRename"
+        android:layout_below="@+id/rename"
+        android:layout_marginTop="84dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_shape_default"
+
+        />
+
+</RelativeLayout>
